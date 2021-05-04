@@ -1,0 +1,30 @@
+
+Fill this out and submit this with the executable.
+
+Group#: 8
+
+1.	Indicate who did what by giving names.
+Must have divided the work as specified by the assignment
+sheet. If the member did not fully contribute to the assigned part, 
+do not list his/her name!!!!!
+o	Member A tasks(DFA, tables, scanner)- who: Tyler, Maria, Tahwab 
+o	Member B tasks(DFA, tables, scanner)- who: Tyler, Maria, Tahwab 
+o	Member C tasks(word, period)- who: Tyler, Maria, Tahwab 
+
+2.     Who came to the meeting to test everything together? Tyler, Maria, Tahwab  
+
+3.     You have included all the required comments? (RE and Done By): Tyler, Maria, Tahwab 
+
+4.     Your program works correctly on scannertest1 and scannertest2? Tyler
+
+5.     Any other remarks.
+	We found that it was easiest when we scheduled blocks of time to all get together and collaborate on the assignment together
+	in real-time. As such, we eliminated the pressure one might feel from potentially struggling on their segment had they worked on it
+	alone as well as eliminated any confusion that might be had when one goes to pull the latest code and it has changed quite a bit. The
+	pair programming, or trio programming in this case, made debugging a breeze as well. Real-time voice chat and screen sharing furthered group
+	chemistry as well.
+
+
+checkIt_LK in 24 hours and immediately correct and re-submit.
+
+
