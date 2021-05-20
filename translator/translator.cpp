@@ -403,7 +403,7 @@ void be()
     gen("TENSE");
 }
 
-// Grammar: <after object> ::= <verb> <tense> PERIOD | <noun> DESTINATION <verb> <tense> PERIOD
+// Grammar: <after object> ::= <verb> #getEword# #gen("ACTION")# <tense> #gen("TENSE")# PERIOD | <noun> #getEword# DESTINATION #gen("TO")# <verb> #getEword# #gen("ACTION")# <tense> #gen("TENSE")# PERIOD
 // Done by: Tyler Cox
 void after_object()
 {
@@ -430,7 +430,7 @@ void after_object()
     }
 }
 
-// Grammar: <after noun> ::= <be> PERIOD | DESTINATION <verb> <tense> PERIOD | OBJECT <after object>
+// Grammar: <after noun> ::= <be> #gen("DESCRIPTION")# #gen("TENSE")# PERIOD | DESTINATION #gen("TO")# <verb> #getEword# #gen("ACTION")# <tense> #gen("TENSE")# PERIOD | OBJECT #gen("OBJECT")# <after object>
 // Done by: Tahwab Noori
 void after_noun()
 {
@@ -459,7 +459,7 @@ void after_noun()
         syntax_error2("after_noun");
     }
 }
-// Grammar: <after subject> ::= <verb> <tense> PEROD | <noun> <after noun>
+// Grammar: <after subject> ::= <verb> #getEword# #gen("ACTION")# <tense> #gen("TENSE")# PERIOD | <noun> #getEword# <after noun>
 // Done by: Tahwab Noori
 void after_subject()
 {
@@ -482,7 +482,7 @@ void after_subject()
     }
 }
 
-// Grammar: <s> ::= [CONNECTOR] <noun> SUBJECT <after subject>
+// Grammar: <s> ::= [CONNECTOR #getEword# #gen("CONNECTOR")#] <noun> #getEword# SUBJECT #gen("ACTOR")# <after subject>
 // Done by: Maria Bailon
 void s()
 {
